@@ -3,6 +3,7 @@
 @section('content')
 <div class="logo-icon-home"></div>
 <section class="panel section section-services" data-color="teal">
+    
     <button id="btn-click">
         <a class="scroll-arrow __white"></a>
     </button>
@@ -154,5 +155,5 @@
 @section('script')
 <script type="text/javascript" src="{{ asset('scripts/lottie.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('scripts/vendor.js') }}"></script>
-<script type="text/javascript" src="{{ asset('scripts/scripts.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/scripts.js') }}"></script>
 @endsection

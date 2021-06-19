@@ -383,7 +383,6 @@ gsap.from(".footer", {
 //   duration: 1
 // });
 
-
 /* Morph */
 
 var btn = document.getElementById('btn-click');
@@ -410,14 +409,20 @@ $(window).scroll(function () {
   var $window = $(window),
       $body = $('body'),
       $panel = $('.panel'),
-      $header = $("header");
+      $header = $("header"),
+      $elements = $('body','header');
 
+  // $.each(['body','header'], function( index, value ){
+  //   console.log(index + ' : ' + value);
+    
+  // });
+ 
   // Change 33% earlier than scroll position so colour is there when you arrive.
   var scroll = $window.scrollTop() + $window.height() / 3;
 
   $panel.each(function () {
     var $this = $(this);
-
+    
     // if position is within range of this panel.
     // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
     // Remember we set the scroll to 33% earlier in scroll var.
