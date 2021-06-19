@@ -409,7 +409,8 @@ $(window).scroll(function () {
   // selectors
   var $window = $(window),
       $body = $('body'),
-      $panel = $('.panel');
+      $panel = $('.panel'),
+      $header = $("header");
 
   // Change 33% earlier than scroll position so colour is there when you arrive.
   var scroll = $window.scrollTop() + $window.height() / 3;
@@ -426,9 +427,13 @@ $(window).scroll(function () {
       $body.removeClass(function (index, css) {
         return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
       });
-
+      // Remove all classes on body with color-
+      $header.removeClass(function (index, css) {
+        return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+      });
       // Add class of currently active div
       $body.addClass('color-' + $(this).data('color'));
+      $header.addClass('color-' + $(this).data('color'));
     }
   });
 }).scroll();

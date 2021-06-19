@@ -127,6 +127,11 @@ p.section-p {
 
 .color-pink .brand-logo,
 .color-pink .logo-icon-home {
+  background-color: #fff;
+}
+
+.color-grey .brand-logo,
+.color-grey .logo-icon-home {
   background-color: #31006F;
 }
 
