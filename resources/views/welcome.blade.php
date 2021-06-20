@@ -3,7 +3,7 @@
 @section('content')
     <div class="logo-icon-home"></div>
     <section id="sect1" class="home-section-1">
-        <button id="btn-click">
+        <button id="btn-down-click">
             <a class="scroll-arrow __white"></a>
         </button>
         <div id="left" class="header-left">
@@ -16,7 +16,7 @@
     </section>
     <section id="sect2">
 
-		<button id="btn2-click">
+		<button id="btn-up-click">
 			<img class="scroll-arrow arrow-up" src="img/common/arrow-down.svg" alt="">
 		</button>
 

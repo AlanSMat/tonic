@@ -21,7 +21,6 @@ console.log('This is crystal clear evidence that this works.');
 var calculation = 200 + 223;
 
 console.log('Sanity Check: 200 + 223 = ' + calculation);
-console.log('bye.');
 
 /* Icon Animations */
 
@@ -385,8 +384,8 @@ gsap.from(".footer", {
 
 /* Morph */
 
-var btn = document.getElementById('btn-click');
-var btn2 = document.getElementById('btn2-click');
+var btn = document.getElementById('btn-down-click');
+var btn2 = document.getElementById('btn-up-click');
 var sect1 = document.getElementById('sect1');
 var sect2 = document.getElementById('sect2');
 var overlay = document.getElementById('morph');

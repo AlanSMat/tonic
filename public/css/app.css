@@ -294,8 +294,8 @@ a {
   transform: rotate(180deg);
 }
 
-#btn-click,
-#btn2-click {
+#btn-down-click,
+#btn-up-click {
   position: absolute;
   left: 30px;
   bottom: 40px;
@@ -307,16 +307,24 @@ a {
   cursor: pointer;
 }
 @media (max-width: 1300px) {
-  #btn-click,
-#btn2-click {
+  #btn-down-click,
+#btn-up-click {
+    left: 12px;
+    bottom: 30px;
+    width: 50px;
+  }
+}
+@media (max-width: 1040px) {
+  #btn-down-click,
+#btn-up-click {
     left: 12px;
     bottom: 30px;
     width: 50px;
   }
 }
 @media (max-width: 680px) {
-  #btn-click,
-#btn2-click {
+  #btn-down-click,
+#btn-up-click {
     left: 10px;
     height: 50px;
     bottom: 20px;
@@ -324,8 +332,8 @@ a {
   }
 }
 @media (max-width: 480px) {
-  #btn-click,
-#btn2-click {
+  #btn-down-click,
+#btn-up-click {
     left: 14px;
     height: 44px;
     bottom: 16px;

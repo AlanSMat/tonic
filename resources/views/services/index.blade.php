@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="panel section" data-color="purple">
-    <button id="btn-click">
+<section id="sect1" class="panel section" data-color="purple">
+    <button id="btn-down-click">
         <a class="scroll-arrow __white"></a>
     </button>
 
@@ -17,7 +17,10 @@
     </div>
 </section>
 <!-- Section 2 -->
-<section class="panel section" data-color="pink">
+<section id="sect2" class="panel section" data-color="pink">
+    <button id="btn-up-click">
+		<img class="scroll-arrow arrow-up" src="img/common/arrow-down.svg" alt="">
+	</button>
     <div class="container-grid">
         <div class="services-overview-grid">
 

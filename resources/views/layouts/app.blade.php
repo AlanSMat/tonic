@@ -22,6 +22,10 @@
         <svg id="morph" height="100%" width="100%" viewBox="0 0 1920 1080" preserveAspectRatio="none">
             <path class="morph" d="M0,1082h1920V939.5c0,0-145-80.5-488-80.5c-344,0-598,153-921,153S0,923,0,923V1082z" fill="#31006F"></path>
         </svg>
+        @elseif(Route::currentRouteName()=="services")
+        <svg id="morph" height="100%" width="100%" viewBox="0 0 1920 1080" preserveAspectRatio="none">
+            <path class="morph" d="M0,1082h1920V939.5c0,0-145-80.5-488-80.5c-344,0-598,153-921,153S0,923,0,923V1082z" fill="#31006F"></path>
+        </svg>
         @endif
 
         <div id="app">
