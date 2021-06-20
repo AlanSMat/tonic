@@ -100,10 +100,49 @@ h1 {
     -webkit-mask: url("/img/common/tonic_logo_icon.svg") no-repeat center / contain;
 }
 
+.color-orange {
+    .brand-logo,
+    .logo-icon-home {
+        background-color: #fff;
+    }
+    .services-nav a {
+      color: #fff;
+      &:hover {
+        color: #6FC7B0;
+      }
+    }
+    .menu-button span {
+      background-color: #fff;
+    }
+}
+.color-teal {
+    .brand-logo,
+    .logo-icon-home {
+        background-color: #fff;
+    }
+    .services-nav a {
+      color: #fff;
+      &:hover {
+        color: #6FC7B0;
+      }
+    }
+    .menu-button span {
+      background-color: #fff;
+    }
+}
 .color-purple {
     .brand-logo,
     .logo-icon-home {
         background-color: #fff;
+    }
+    .services-nav a {
+      color: #fff;
+      &:hover {
+        color: #6FC7B0;
+      }
+    }
+    .menu-button span {
+      background-color: #fff;
     }
 }
 .color-pink {
@@ -111,16 +150,31 @@ h1 {
     .logo-icon-home {
         background-color: #fff;
     }
+    .services-nav a {
+      color: #fff;
+      &:hover {
+        color: #6FC7B0;
+      }
+    }
+    .menu-button span {
+      background-color: #fff;
+    }
 }
 .color-grey {
     .brand-logo,
     .logo-icon-home {
-        background-color: #31006F;
+        background-color: $colorPurple;
+    }
+    .services-nav a {
+      color: $colorPurple;
+      &:hover {
+        color: #6FC7B0;
+      }
+    }
+    .menu-button span {
+      background-color: $colorPurple;
     }
 }
-
-
-
 
 .scroll-arrow {
     &.__white {
@@ -147,13 +201,9 @@ h1 {
     width: max-content;
     margin-top: 4px;
     right: 110px;
-    color: #fff;
     a {
         padding-right: 40px;
         font-size: 1.125em;
-        &:hover {
-            color: #6FC7B0;
-        }
     }
 }
 
@@ -209,7 +259,6 @@ a {
         position: absolute;
         width: 40px;
         height: 3px;
-        background-color: #fff;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -o-transform: rotate(0deg);

@@ -2,8 +2,8 @@
 
 @section('content')
 <div class="logo-icon-home"></div>
-<section class="panel section section-services" data-color="pink">
-    <button id="btn-click">
+<section id="sect-creative-1" class="panel section section-services" data-color="pink">
+    <button id="btn-down-click">
         <a class="scroll-arrow __white"></a>
     </button>
 
@@ -20,7 +20,10 @@
     </div>
 </section>
 <!-- Section 2 -->
-<section class="panel section section-sml" data-color="grey">
+<section id="sect-creative-2" class="panel section section-sml" data-color="grey">
+    <button id="btn-up-click">
+		<img class="scroll-arrow arrow-up" src="img/common/arrow-down.svg" alt="">
+	</button>
     <div class="container-grid">
         <div class="title-panel title-2lines">
             <h2 class="section-title text-purple">What we</h2>

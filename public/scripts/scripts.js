@@ -384,6 +384,16 @@ gsap.from(".footer", {
 
 /* Morph */
 
+// var morphAttribs = {
+//   'index' : {
+//     'attribs' : {
+//       'btn-down-id': 'btn-down-click',
+//       'btn-up-id'  : 'btn-up-click',
+//       'sect-1' : ''
+//     }
+//   }
+// }
+
 var btn = document.getElementById('btn-down-click');
 var btn2 = document.getElementById('btn-up-click');
 var sect1 = document.getElementById('sect1');
@@ -409,7 +419,7 @@ $(window).scroll(function () {
       $body = $('body'),
       $panel = $('.panel'),
       $header = $("header"),
-      $elements = $('body','header');
+      $nav = $('.services-nav');
 
   // $.each(['body','header'], function( index, value ){
   //   console.log(index + ' : ' + value);
@@ -431,13 +441,18 @@ $(window).scroll(function () {
       $body.removeClass(function (index, css) {
         return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
       });
-      // Remove all classes on body with color-
+      // Remove all classes on header with color-
       $header.removeClass(function (index, css) {
         return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
       });
+      // Remove all classes on header with color-
+      // $nav.removeClass(function (index, css) {
+      //   return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+      // });
       // Add class of currently active div
       $body.addClass('color-' + $(this).data('color'));
       $header.addClass('color-' + $(this).data('color'));
+      
     }
   });
 }).scroll();

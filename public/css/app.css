@@ -120,8 +120,45 @@ p.section-p {
   -webkit-mask: url("/img/common/tonic_logo_icon.svg") no-repeat center/contain;
 }
 
+.color-orange .brand-logo,
+.color-orange .logo-icon-home {
+  background-color: #fff;
+}
+.color-orange .services-nav a {
+  color: #fff;
+}
+.color-orange .services-nav a:hover {
+  color: #6FC7B0;
+}
+.color-orange .menu-button span {
+  background-color: #fff;
+}
+
+.color-teal .brand-logo,
+.color-teal .logo-icon-home {
+  background-color: #fff;
+}
+.color-teal .services-nav a {
+  color: #fff;
+}
+.color-teal .services-nav a:hover {
+  color: #6FC7B0;
+}
+.color-teal .menu-button span {
+  background-color: #fff;
+}
+
 .color-purple .brand-logo,
 .color-purple .logo-icon-home {
+  background-color: #fff;
+}
+.color-purple .services-nav a {
+  color: #fff;
+}
+.color-purple .services-nav a:hover {
+  color: #6FC7B0;
+}
+.color-purple .menu-button span {
   background-color: #fff;
 }
 
@@ -129,9 +166,27 @@ p.section-p {
 .color-pink .logo-icon-home {
   background-color: #fff;
 }
+.color-pink .services-nav a {
+  color: #fff;
+}
+.color-pink .services-nav a:hover {
+  color: #6FC7B0;
+}
+.color-pink .menu-button span {
+  background-color: #fff;
+}
 
 .color-grey .brand-logo,
 .color-grey .logo-icon-home {
+  background-color: #31006F;
+}
+.color-grey .services-nav a {
+  color: #31006F;
+}
+.color-grey .services-nav a:hover {
+  color: #6FC7B0;
+}
+.color-grey .menu-button span {
   background-color: #31006F;
 }
 
@@ -160,14 +215,10 @@ p.section-p {
   width: max-content;
   margin-top: 4px;
   right: 110px;
-  color: #fff;
 }
 .services-nav a {
   padding-right: 40px;
   font-size: 1.125em;
-}
-.services-nav a:hover {
-  color: #6FC7B0;
 }
 
 a {
@@ -219,7 +270,6 @@ a {
   position: absolute;
   width: 40px;
   height: 3px;
-  background-color: #fff;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);

@@ -2,7 +2,7 @@
 
 @section('content')
 <section class="panel section" data-color="purple">
-    <button id="btn-click">
+    <button id="btn-down-click">
         <img class="scroll-arrow" src="img/common/arrow-down.svg" alt="">
     </button>
 

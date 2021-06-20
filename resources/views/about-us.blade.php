@@ -4,7 +4,7 @@
     <div class="logo-icon-home"></div>
     <!-- Section 1 -->
     <div class="panel section section-about" data-color="teal">
-		<button id="btn-click">
+		<button id="btn-down-click">
 			<a class="scroll-arrow __white"></a>
 		</button>
 

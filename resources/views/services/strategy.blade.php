@@ -4,7 +4,7 @@
 <div class="logo-icon-home"></div>
 <section class="panel section section-services" data-color="teal">
     
-    <button id="btn-click">
+    <button id="btn-down-click">
         <a class="scroll-arrow __white"></a>
     </button>
 
