@@ -35,22 +35,22 @@ h5, h6 {
     margin: 0;
 }
 h1 {
-    font-size: 96px;
-    line-height: 110px;
+    font-size: 4.000em;
+    line-height: 64px;
   }
   h2 {
-    font-size: 74px;
+    font-size: 3.375em;
     line-height: 74px;
   }
   h3 {
-    font-size: 54px;
+    font-size: 2.500em;
     line-height: 64px;
   }
   h4 {
     font-size: 2.375em;
   }
   h5 {
-    font-size: 26px;
+    font-size: 1.250em;
     line-height: 34px;
   }
   h6 {
@@ -67,7 +67,7 @@ h1 {
     line-height: 1.500em;
     margin: 0;
     &.section-p {
-      font-size: 1.438em;
+      font-size: 1.125em;
       line-height: 1.6em;
     }
   }
@@ -334,6 +334,9 @@ a {
   }
  .color-pink {
     background-color: #FF75B7;
+    span {
+      color: #fff;
+    }
  }
  .color-teal {
     background-color: #6FC7B0;
@@ -355,22 +358,37 @@ a {
  }
  .text-purple {
    color: $color1;
+   span {
+     color:#fff;
+   }
  }
  
  .text-orangetech {
    color: $color4;
+   span {
+     color: #fff;
+   }
  }
  
  .text-orange {
    color: $color5;
+   span {
+     color: #fff;
+   }
  }
  
  .text-pink {
    color: $color2;
+   span {
+     color: #fff;
+   }
  }
  
  .text-teal {
    color: $color3;
+   span {
+     color: #fff;
+   }
  }
  
  .text-white {

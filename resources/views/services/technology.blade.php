@@ -109,7 +109,7 @@
 
                 <div class="grid-card">
                     <div class="card">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
+                    <img src="/img/work/thumbnails/thumbnail_rrkiosk.jpg" alt="">
                         <h4 class="card-title">Project Name Here</h4>
                         <h5 class="card-client">LG Electronics</h5>
                         <div class="border"></div>
@@ -118,7 +118,7 @@
 
                 <div class="grid-card">
                     <div class="card">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
+                        <img src="/img/work/thumbnails/thumbnail_adf.jpg" alt="">
                         <h4 class="card-title">Project Name Here</h4>
                         <h5 class="card-client">LG Electronics</h5>
                         <div class="border"></div>
@@ -127,7 +127,7 @@
 
                 <div class="grid-card grid-card-3">
                     <div class="card ">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
+                        <img src="/img/work/thumbnails/thumbnail_vouchr.jpg" alt="">
                         <h4 class="card-title text-pink">Project Name Here</h4>
                         <h5 class="card-client text-pink">LG Electronics</h5>
                         <div class="border"></div>
@@ -140,12 +140,18 @@
     </div>
 </section>
 <!-- Section 4 -->
-<section class="section services-selector">
-    <div class="services-selector-card selector-left">
-        <h3>Technology</h3>
+<section class="section services-selector" style="opacity: 1; transform: translate(0px, 0px);">
+
+    <div class="services-selector-card service-card-left color-pink">
+        <img src="/img/services/icon-creative-sml.svg" width="200" height="184" alt="">
+        <h3 class="text-white">Creative</h3>
+        <a href="services-creative.html"></a>
     </div>
-    <div class="services-selector-card selector-right">
-        <h3>Strategy</h3>
+
+    <div class="services-selector-card service-card-right color-teal">
+        <h3 class="text-white">Strategy</h3>
+        <img src="/img/services/icon-services-sml.svg" width="200" height="184" alt="">
+        <a href="services-strategy.html"></a>
     </div>
 
 </section>

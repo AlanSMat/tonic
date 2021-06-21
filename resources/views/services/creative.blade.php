@@ -143,15 +143,21 @@
     </div>
 </section>
 <!-- Section 4 -->
-<section class="section services-selector">
-    <div class="services-selector-card selector-left">
-        <h3>Technology</h3>
-    </div>
-    <div class="services-selector-card selector-right">
-        <h3>Strategy</h3>
-    </div>
+<section class="section services-selector" style="opacity: 1; transform: translate(0px, 0px);">
 
-</section>
+		<div class="services-selector-card service-card-left color-orange">
+			<img src="img/services/icon-technology-sml.svg" alt="">
+			<h3 class="text-white">Technology</h3>
+			<a href="services-technology.html"></a>
+		</div>
+
+		<div class="services-selector-card service-card-right color-teal">
+			<h3 class="text-white">Strategy</h3>
+			<img src="img/services/icon-services-sml.svg" alt="">
+			<a href="services-strategy.html"></a>
+		</div>
+
+	</section>
 @endsection
 
 @section('script')

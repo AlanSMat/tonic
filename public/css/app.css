@@ -49,17 +49,17 @@ h5, h6 {
 }
 
 h1 {
-  font-size: 96px;
-  line-height: 110px;
+  font-size: 4em;
+  line-height: 64px;
 }
 
 h2 {
-  font-size: 74px;
+  font-size: 3.375em;
   line-height: 74px;
 }
 
 h3 {
-  font-size: 54px;
+  font-size: 2.5em;
   line-height: 64px;
 }
 
@@ -68,7 +68,7 @@ h4 {
 }
 
 h5 {
-  font-size: 26px;
+  font-size: 1.25em;
   line-height: 34px;
 }
 
@@ -88,7 +88,7 @@ p {
   margin: 0;
 }
 p.section-p {
-  font-size: 1.438em;
+  font-size: 1.125em;
   line-height: 1.6em;
 }
 
@@ -398,6 +398,9 @@ a {
 .color-pink {
   background-color: #FF75B7;
 }
+.color-pink span {
+  color: #fff;
+}
 
 .color-teal {
   background-color: #6FC7B0;
@@ -426,21 +429,36 @@ a {
 .text-purple {
   color: #31006F;
 }
+.text-purple span {
+  color: #fff;
+}
 
 .text-orangetech {
   color: #F58674;
+}
+.text-orangetech span {
+  color: #fff;
 }
 
 .text-orange {
   color: #F25C4A;
 }
+.text-orange span {
+  color: #fff;
+}
 
 .text-pink {
   color: #FF75B7;
 }
+.text-pink span {
+  color: #fff;
+}
 
 .text-teal {
   color: #6FC7B0;
+}
+.text-teal span {
+  color: #fff;
 }
 
 .text-white {
@@ -751,11 +769,11 @@ footer p, footer a {
 }
 
 .headline-header {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 @media (max-width: 1500px) {
   .headline-header {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 960px) {
@@ -931,11 +949,12 @@ footer p, footer a {
 .section-p, .services-p {
   font-size: 1.438em;
   line-height: 1.6em;
+  margin-bottom: 90px;
 }
 @media (max-width: 1500px) {
   .section-p, .services-p {
     font-size: 1.125em;
-    line-height: 1.6em;
+    margin-bottom: 90px;
   }
 }
 @media (max-width: 480px) {
@@ -1248,7 +1267,6 @@ section {
 
 .services-selector-card {
   display: flex;
-  background-color: green;
   width: 100%;
   height: 100%;
   justify-content: center;
