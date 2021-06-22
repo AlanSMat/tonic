@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<section id="sect1" class="panel section" data-color="purple">
-    <button id="btn-down-click">
-        <a class="scroll-arrow __white"></a>
+<!-- Section 1 -->
+<section class="panel section" data-color="purple">
+    <button id="btn-click">
+        <img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
     </button>
 
     <div class="container-page">
@@ -17,10 +18,7 @@
     </div>
 </section>
 <!-- Section 2 -->
-<section id="sect2" class="panel section" data-color="pink">
-    <button id="btn-up-click">
-		<img class="scroll-arrow arrow-up" src="img/common/arrow-down.svg" alt="">
-	</button>
+<section class="panel section" data-color="pink">
     <div class="container-grid">
         <div class="services-overview-grid">
 
@@ -60,14 +58,14 @@
                 <div class="technology-text a2 text-hidden">
                     <h4 class="text-purple">It's a Technological<br>Solution <span>YOU</span> are after?</h4>
                     <p class="services-p">Our fleet of Creative Technologists can investigate, design, build and test anything from websites and apps to ecommerce tools and beyond.</p>
-                    <a class="button button-white" href="services-creative.html">Learn more
+                    <a class="button button-white" href="services-technology.html">Learn more
                         <img class="arrow" src="img/common/arrow-next.svg" alt="">
                     </a>
                 </div>
                 <div class="strategy-text text-hidden">
                     <h4 class="text-purple">Are <span>YOU</span> looking<br>for a Strategic solution?</h4>
                     <p class="services-p">You’ve come to right place. We’ve got the smarts to undertake everything from a disruptive comms strategy to a complex 'something', and then turn that thinking into testable reality if you need us to. </p>
-                    <a class="button button-white" href="services-creative.html">Learn more
+                    <a class="button button-white" href="services-strategy.html">Learn more
                         <img class="arrow" src="img/common/arrow-next.svg" alt="">
                     </a>
                 </div>

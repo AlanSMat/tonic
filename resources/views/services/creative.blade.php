@@ -104,7 +104,7 @@
             </div>
 
                 <a class="button" href="">View all
-                    <img class="arrow" src="img/common/arrow-next.svg" alt="">
+                    <img class="arrow" src="/img/common/arrow-next.svg" alt="">
                 </a>
         </div>
         <div class="section-scrolltrigger">
@@ -112,28 +112,31 @@
 
                 <div class="grid-card">
                     <div class="card">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
-                        <h4 class="card-title">Project Name Here</h4>
-                        <h5 class="card-client">LG Electronics</h5>
+                        <img src="/img/work/thumbnails/thumbnail_hempblack.jpg" alt="">
+                        <h4 class="card-title">Feel.Look.Do.Better.</h4>
+                        <h5 class="card-client">Hemp Black</h5>
                         <div class="border"></div>
+                        <a href="cs-hempblack.html"></a>
                     </div>
                 </div>
 
                 <div class="grid-card">
                     <div class="card">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
-                        <h4 class="card-title">Project Name Here</h4>
+                        <img src="/img/work/thumbnails/freestyler_thumb.jpg" alt="">
+                        <h4 class="card-title">Freestyler Campaign</h4>
                         <h5 class="card-client">LG Electronics</h5>
                         <div class="border"></div>
+                        <a href="cs-lgfreestyler.html"></a>
                     </div>
                 </div>
 
-                <div class="grid-card grid-card-3">
+                <div class="grid-card card3">
                     <div class="card ">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
-                        <h4 class="card-title text-pink">Project Name Here</h4>
-                        <h5 class="card-client text-pink">LG Electronics</h5>
+                        <img src="/img/work/thumbnails/thumbnail_NickKyrios.jpg" alt="">
+                        <h4 class="card-title text-pink">Rebrand and Foundation Launch</h4>
+                        <h5 class="card-client text-pink">Nick Kyrios</h5>
                         <div class="border"></div>
+                        <a href="cs-nickkyrios.html"></a>
                     </div>
                 </div>
 
@@ -146,14 +149,14 @@
 <section class="section services-selector" style="opacity: 1; transform: translate(0px, 0px);">
 
 		<div class="services-selector-card service-card-left color-orange">
-			<img src="img/services/icon-technology-sml.svg" alt="">
+			<img src="/img/services/icon-technology-sml.svg" width="200" height="184" alt="">
 			<h3 class="text-white">Technology</h3>
 			<a href="services-technology.html"></a>
 		</div>
 
 		<div class="services-selector-card service-card-right color-teal">
 			<h3 class="text-white">Strategy</h3>
-			<img src="img/services/icon-services-sml.svg" alt="">
+			<img src="/img/services/icon-services-sml.svg" width="200" height="184" alt="">
 			<a href="services-strategy.html"></a>
 		</div>
 

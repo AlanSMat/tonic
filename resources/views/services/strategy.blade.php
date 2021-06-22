@@ -110,8 +110,8 @@
 
                 <div class="grid-card">
                     <div class="card">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
-                        <h4 class="card-title">Project Name Here</h4>
+                        <img src="/img/work/thumbnails/thumbnail_locallegends.jpg" alt="">
+                        <h4 class="card-title">LG Local Legends</h4>
                         <h5 class="card-client">LG Electronics</h5>
                         <div class="border"></div>
                     </div>
@@ -119,18 +119,18 @@
 
                 <div class="grid-card">
                     <div class="card">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
-                        <h4 class="card-title">Project Name Here</h4>
-                        <h5 class="card-client">LG Electronics</h5>
+                        <img src="/img/work/thumbnails/thumbnail_inkforgood.jpg" alt="">
+                        <h4 class="card-title">#inkForGood</h4>
+                        <h5 class="card-client">One Disease</h5>
                         <div class="border"></div>
                     </div>
                 </div>
 
                 <div class="grid-card grid-card-3">
                     <div class="card ">
-                        <img src="/img/work/Zodiac_600x600_thumbnail.jpg" alt="">
-                        <h4 class="card-title text-pink">Project Name Here</h4>
-                        <h5 class="card-client text-pink">LG Electronics</h5>
+                        <img src="/img/work/thumbnails/thumbnail_chromebook.jpg" alt="">
+                        <h4 class="card-title text-pink">ChromeBook Launch Campaign</h4>
+                        <h5 class="card-client text-pink">Lenovo</h5>
                         <div class="border"></div>
                     </div>
                 </div>
@@ -140,13 +140,19 @@
 
     </div>
 </section>
-<!-- Section 4 -->
+<!-- Section Services -->
 <section class="section services-selector">
-    <div class="services-selector-card selector-left">
-        <h3>Technology</h3>
+
+    <div class="services-selector-card service-card-left color-pink">
+        <img src="/img/services/icon-creative-sml.svg" width="200" height="184 alt="">
+        <h3 class="text-white">Creative</h3>
+        <a href="services-creative.html"></a>
     </div>
-    <div class="services-selector-card selector-right">
-        <h3>Strategy</h3>
+
+    <div class="services-selector-card service-card-right color-orange">
+        <h3 class="text-white">Technology</h3>
+        <img src="/img/services/icon-technology-sml.svg" width="200" height="184" alt="">
+        <a href="services-technology.html"></a>
     </div>
 
 </section>
