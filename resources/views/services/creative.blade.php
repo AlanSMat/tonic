@@ -148,19 +148,19 @@
 <!-- Section 4 -->
 <section class="section services-selector" style="opacity: 1; transform: translate(0px, 0px);">
 
-		<div class="services-selector-card service-card-left color-orange">
-			<img src="/img/services/icon-technology-sml.svg" width="200" height="184" alt="">
-			<h3 class="text-white">Technology</h3>
-			<a href="services-technology.html"></a>
-		</div>
+    <div class="services-selector-card service-card-left color-orange">
+        <img src="/img/services/icon-technology-sml.svg" alt="">
+        <h3 class="text-white">Technology</h3>
+        <a href="services-technology.html"></a>
+    </div>
 
-		<div class="services-selector-card service-card-right color-teal">
-			<h3 class="text-white">Strategy</h3>
-			<img src="/img/services/icon-services-sml.svg" width="200" height="184" alt="">
-			<a href="services-strategy.html"></a>
-		</div>
-
-	</section>
+    <div class="services-selector-card service-card-right color-teal">
+        <h3 class="text-white">Strategy</h3>
+        <img src="/img/services/icon-services-sml.svg" alt="">
+        <a href="services-strategy.html"></a>
+    </div>
+    <p>&nbsp;</p>
+</section>
 @endsection
 
 @section('script')

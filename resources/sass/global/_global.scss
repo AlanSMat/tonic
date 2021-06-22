@@ -457,3 +457,49 @@ a {
     width: 50%;
 }
 
+@media (max-width: 1540px) {
+  h1 {font-size: 4.9em;}
+  h2 {font-size: 3.375em;}
+  h3 {font-size: 2.500em;}
+
+  //a {font-size: 1.2em;}
+  .block-quote {font-size: 1.250em; line-height: 1.65;}
+}
+
+@media (max-width: 1240px) {
+  h1 {font-size: 4.000em;}
+  h4 {font-size: 2em;}
+  h5 {font-size: 1.250em;}
+  h6 {font-size: 1.250em;}
+  p {font-size: 1em; line-height: 1.5em;}
+}
+
+@media (max-width: 960px) {
+  h3 {font-size: 1.875em}
+  h6 {font-size: 1.1em;}
+  a {font-size: 0.938em;}
+  p {font-size: 0.938em}
+}
+
+@media (max-width: 800px) {
+  h1 {font-size: 3.6em;}
+  h4 {font-size: 1.6em;}
+}
+
+@media (max-width: 680px) {
+  h2 {font-size: 1.8em;}
+  h3 {font-size: 1.55em}
+  h4 {font-size: 1.5em;}
+  h6 {font-size: 1em;}
+  p {font-size: 0.875em}
+}
+
+@media (max-width: 480px) {
+  h1 {font-size: 2.375em;}
+  h2 {font-size: 1.438em; line-height: 1.2em;}
+  h3 {font-size: 1.3em;}
+  //h4 {font-size: 1.4em;}
+  h5 {font-size: 0.95em;}
+  h6 {font-size: 0.875em;}
+}
+
