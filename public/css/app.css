@@ -52,6 +52,12 @@ h1 {
   font-size: 4em;
   line-height: 64px;
 }
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.375em;
+    line-height: 34px;
+  }
+}
 
 h2 {
   font-size: 3.375em;
@@ -62,6 +68,11 @@ h3 {
   font-size: 2.5em;
   line-height: 64px;
 }
+@media (max-width: 960px) {
+  h3 {
+    font-size: 1.875em;
+  }
+}
 
 h4 {
   font-size: 2.375em;
@@ -70,6 +81,12 @@ h4 {
 h5 {
   font-size: 1.25em;
   line-height: 34px;
+}
+@media (max-width: 480px) {
+  h5 {
+    font-size: 0.95em;
+    line-height: 4px;
+  }
 }
 
 h6 {
@@ -107,6 +124,11 @@ p.section-p {
   left: 0;
   right: 0;
 }
+@media (max-width: 480px) {
+  .brand-logo {
+    height: 25px;
+  }
+}
 
 .logo-icon-home {
   position: fixed;
@@ -118,6 +140,20 @@ p.section-p {
   background-color: #fff;
   mask: url("/img/common/tonic_logo_icon.svg") no-repeat center/contain;
   -webkit-mask: url("/img/common/tonic_logo_icon.svg") no-repeat center/contain;
+}
+@media (max-width: 480px) {
+  .logo-icon-home {
+    width: 42px;
+    height: 36px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-nav {
+    display: none;
+  }
 }
 
 .color-orange .brand-logo,
@@ -252,6 +288,14 @@ a {
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
+@media (max-width: 480px) {
+  .menu-button {
+    top: 20px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+  }
+}
 .menu-button.open span:nth-child(1) {
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -279,8 +323,19 @@ a {
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
+@media (max-width: 480px) {
+  .menu-button span {
+    width: 30px;
+    height: 2px;
+  }
+}
 .menu-button span.bottom {
   margin-top: 14px;
+}
+@media (max-width: 480px) {
+  .menu-button span.bottom {
+    margin-top: 12px;
+  }
 }
 
 .block-quote {
@@ -386,8 +441,9 @@ a {
 #btn-up-click {
     left: 14px;
     height: 44px;
-    bottom: 16px;
+    bottom: -20px;
     width: 40px;
+    z-index: 3;
   }
 }
 
@@ -429,8 +485,8 @@ a {
 .text-purple {
   color: #31006F;
 }
-.text-purple span {
-  color: #fff;
+.text-purple span .text-pink {
+  color: #FF75B7 !important;
 }
 
 .text-orangetech {
@@ -490,6 +546,16 @@ header {
   left: 0;
   padding: 40px 50px 30px 40px;
   width: 100%;
+}
+@media (max-width: 800px) {
+  header {
+    padding: 25px 30px 30px 35px;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    padding: 15px 30px 30px 5px;
+  }
 }
 
 .sub-menu {
@@ -783,7 +849,7 @@ footer p, footer a {
 }
 @media (max-width: 480px) {
   .headline-header {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 }
 
@@ -824,6 +890,7 @@ footer p, footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.7s ease;
 }
 @media (max-width: 1080px) {
   .container-page {
@@ -924,13 +991,13 @@ footer p, footer a {
 @media (max-width: 960px) {
   .text-left {
     width: 100%;
-    margin-top: 580px;
+    margin-top: 620px;
     padding-right: 80px;
   }
 }
 @media (max-width: 800px) {
   .text-left {
-    margin-top: 500px;
+    margin-top: 600px;
   }
 }
 @media (max-width: 680px) {
@@ -941,7 +1008,7 @@ footer p, footer a {
 }
 @media (max-width: 480px) {
   .text-left {
-    margin-top: 230px;
+    margin-top: 330px;
     padding-right: 30px;
   }
 }
@@ -949,18 +1016,19 @@ footer p, footer a {
 .section-p, .services-p {
   font-size: 1.438em;
   line-height: 1.6em;
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 @media (max-width: 1500px) {
   .section-p, .services-p {
     font-size: 1.125em;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 }
 @media (max-width: 480px) {
   .section-p, .services-p {
-    font-size: 0.9em;
-    line-height: 1.4em;
+    font-size: 0.9em !important;
+    line-height: 1.4em !important;
+    margin-bottom: 30px !important;
   }
 }
 
@@ -1231,6 +1299,16 @@ section {
 .container-grid .services-overview-grid h5 {
   margin-bottom: 4px;
 }
+@media (max-width: 1080px) {
+  .container-grid {
+    margin: 0 80px 0 80px;
+  }
+}
+@media (max-width: 480px) {
+  .container-grid {
+    margin: 0 80px 0 80px;
+  }
+}
 
 .services-grid {
   display: flex;
@@ -1248,12 +1326,24 @@ section {
 }
 .services-grid .services-grid-item h6 {
   color: #31006F;
-  font-size: 1.438em;
+  font-size: 1.1em;
   font-weight: normal;
   font-style: normal;
   letter-spacing: normal;
   padding: 0;
   margin: 0;
+}
+@media (max-width: 1080px) {
+  .services-grid .services-grid-item {
+    width: 48%;
+    height: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .services-grid .services-grid-item {
+    width: 100%;
+    height: 40px;
+  }
 }
 
 .services-selector {
@@ -1271,6 +1361,9 @@ section {
   height: 100%;
   justify-content: center;
   align-items: center;
+}
+.services-selector-card img {
+  height: 60%;
 }
 
 .services-overview-text {
@@ -1294,11 +1387,6 @@ section {
 @media (max-width: 1240px) {
   .services-title {
     margin-bottom: 12px;
-  }
-}
-@media (max-width: 480px) {
-  .services-title {
-    margin-bottom: 4px;
   }
 }
 .services-title.active h5 {
@@ -2170,8 +2258,14 @@ button:hover h1 {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1080px) {
+  .grid-card {
+    width: 48%;
+  }
+}
 .grid-card:hover .card {
   transform: scale(1.08);
+  transform: rotateY(-6deg) rotateZ(1deg) scale(1.08);
 }
 .grid-card:hover img {
   opacity: 0.5;
@@ -2217,7 +2311,17 @@ button:hover h1 {
   background-color: #fff;
   width: 100%;
 }
+@media (max-width: 1080px) {
+  .grid-card .card3 {
+    display: none;
+  }
+}
 
+@media (max-width: 1080px) {
+  .grid-card:nth-child(3) {
+    display: none;
+  }
+}
 .contact-form {
   width: 100%;
   margin-bottom: 0;
@@ -2428,6 +2532,40 @@ button:hover h1 {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.header-icon {
+  width: 50%;
+}
+@media (max-width: 1080px) {
+  .header-icon {
+    width: 84%;
+  }
+}
+@media (max-width: 960px) {
+  .header-icon {
+    position: absolute;
+    width: 84%;
+    top: -56%;
+  }
+}
+@media (max-width: 800px) {
+  .header-icon {
+    width: 80%;
+    bottom: -20%;
+  }
+}
+@media (max-width: 680px) {
+  .header-icon {
+    width: 90%;
+    bottom: 35%;
+  }
+}
+@media (max-width: 480px) {
+  .header-icon {
+    width: 80%;
+    top: 20px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

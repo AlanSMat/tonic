@@ -7,12 +7,15 @@
     //transition: all .18s ease;
     cursor: url('/img/common/cursor-icon.svg'), auto;
     width: 31.334%;
+    @media (max-width: 1080px) {
+        width: 48%;
+    }
     display: flex;
     justify-content: space-between;
     &:hover {
         .card  {
             transform: scale(1.08);
-            //transform: rotateY(-6deg) rotateZ(1deg) scale(1.08);
+            transform: rotateY(-6deg) rotateZ(1deg) scale(1.08);
         }
         img {
             opacity: .5;
@@ -59,4 +62,15 @@
         background-color: #fff;
         width: 100%;
     }
+    @media (max-width: 1080px) {
+        .card3 {
+            display: none;
+        }
+        
+    }
+}
+@media (max-width: 1080px) {
+    .grid-card:nth-child(3) {
+        display: none;
+}
 }

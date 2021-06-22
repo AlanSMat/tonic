@@ -38,7 +38,9 @@
   margin-bottom: 40px;
   @media (max-width: 1500px) {margin-bottom: 40px;}
   @media (max-width: 960px) {margin-bottom: 40px;}
-  @media (max-width: 480px) {margin-bottom: 30px;}
+  @media (max-width: 480px) {
+    margin-bottom: 25px;
+  }
 }
 
 .section-headline {
@@ -63,6 +65,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all .7s ease;
 
   @media (max-width: 1080px) {margin: 0 70px 0 70px;}
 
@@ -123,22 +126,25 @@
 
   @media (max-width: 960px) {
     width: 100%;
-    margin-top: 580px;
+    margin-top: 620px;
     padding-right: 80px;
   }
-  @media (max-width: 800px) {margin-top: 500px;}
+  @media (max-width: 800px) {margin-top: 600px;}
   @media (max-width: 680px) {margin-top: 460px; padding-right: 50px;}
-  @media (max-width: 480px) {margin-top: 230px; padding-right: 30px;}
+  @media (max-width: 480px) {margin-top: 330px; padding-right: 30px;}
 }
 
 .section-p, .services-p {
   font-size: 1.438em;
   line-height: 1.6em;
-  margin-bottom: 90px;
-  
+  margin-bottom: 80px;
   @media (max-width: 1500px) {
     font-size: 1.125em; 
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
-  @media (max-width: 480px) {font-size: 0.9em; line-height: 1.4em;}
+  @media (max-width: 480px) {
+    font-size: 0.9em !important; 
+    line-height: 1.4em !important;
+    margin-bottom: 30px !important;
+  }
 }

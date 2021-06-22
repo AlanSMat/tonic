@@ -1,0 +1,38 @@
+.header-icon {
+    width: 50%;
+    //transition: all 0.5s ease-in-out;
+  
+    @media (max-width: 1080px) {
+      width: 84%;
+    }
+  
+    @media (max-width: 960px) {
+      position: absolute;
+      width: 84%;
+      top: -56%
+    }
+    @media (max-width: 800px) {
+      width: 80%;
+      bottom: -20%;
+    }
+    @media (max-width: 680px) {
+      width: 90%;
+      bottom: 35%;
+    }
+    @media (max-width: 480px) {
+      width: 80%;
+      top: 20px;
+    }
+  }
+  
+  .header-icon-about {
+    @media (max-width: 960px) {
+      // position: absolute;
+      // width: 84%;
+      // top: -6%;
+    }
+    @media (max-width: 800px) {
+      //width: 84%;
+      //top: -10%;
+    }
+  }
