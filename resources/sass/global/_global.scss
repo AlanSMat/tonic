@@ -409,7 +409,7 @@ a {
  .text-purple {
    color: $color1;
    span {
-     color: #fff !important;
+     color: #fff;
    }
  }
  
@@ -428,10 +428,10 @@ a {
  }
  
  .text-pink {
-   color: $color2;
-   span {
-     color: #fff;
-   }
+   color: $color2 !important;
+  //  span {
+  //    color: #fff;
+  //  }
  }
  
  .text-teal {

@@ -498,7 +498,7 @@ a {
   color: #31006F;
 }
 .text-purple span {
-  color: #fff !important;
+  color: #fff;
 }
 
 .text-orangetech {
@@ -516,10 +516,7 @@ a {
 }
 
 .text-pink {
-  color: #FF75B7;
-}
-.text-pink span {
-  color: #fff;
+  color: #FF75B7 !important;
 }
 
 .text-teal {
@@ -1460,6 +1457,11 @@ section {
 }
 @media (max-width: 1080px) {
   .services-grid .services-grid-item {
+    height: 40px;
+  }
+}
+@media (max-width: 960px) {
+  .services-grid .services-grid-item {
     width: 48%;
     height: 40px;
   }
@@ -1830,7 +1832,7 @@ section {
   }
 
   .about-icon2 {
-    margin-top: -790px;
+    margin-top: -910px;
   }
 }
 @media (max-width: 480px) {
@@ -2511,6 +2513,7 @@ button:hover h1 {
 @media (max-width: 480px) {
   .grid-card {
     width: 100%;
+    margin-bottom: 40px;
   }
 }
 .grid-card:hover .card {
@@ -2567,13 +2570,8 @@ button:hover h1 {
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 800px) {
   .grid-card:nth-child(3) {
-    display: none;
-  }
-}
-@media (max-width: 480px) {
-  .grid-card:nth-child(2) {
     display: none;
   }
 }
@@ -2790,17 +2788,17 @@ button:hover h1 {
 }
 
 .header-icon {
-  width: 50%;
+  width: 45%;
 }
 @media (max-width: 1080px) {
   .header-icon {
-    width: 84%;
+    width: 54%;
   }
 }
 @media (max-width: 960px) {
   .header-icon {
     position: absolute;
-    width: 84%;
+    width: 74%;
     top: -56%;
   }
 }
@@ -2820,6 +2818,14 @@ button:hover h1 {
   .header-icon {
     width: 80%;
     top: 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header-icon-about {
+    position: absolute;
+    width: 84%;
+    top: -16%;
   }
 }
 

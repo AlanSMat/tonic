@@ -44,6 +44,9 @@
       margin: 0;
     }
     @media (max-width: 1080px) {
+      height: 40px;    
+    }
+    @media (max-width: 960px) {
       width: 48%;
       height: 40px;    
     }

@@ -1,14 +1,14 @@
 .header-icon {
-    width: 50%;
+    width: 45%;
     //transition: all 0.5s ease-in-out;
   
     @media (max-width: 1080px) {
-      width: 84%;
+      width: 54%;
     }
   
     @media (max-width: 960px) {
       position: absolute;
-      width: 84%;
+      width: 74%;
       top: -56%
     }
     @media (max-width: 800px) {
@@ -27,11 +27,15 @@
   
   .header-icon-about {
     @media (max-width: 960px) {
-      // position: absolute;
-      // width: 84%;
-      // top: -6%;
+      position: absolute;
+      width: 84%;
+      top: -16%;
     }
     @media (max-width: 800px) {
+      //width: 84%;
+      //top: -10%;
+    }
+    @media (max-width: 480px) {
       //width: 84%;
       //top: -10%;
     }

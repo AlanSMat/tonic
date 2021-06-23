@@ -133,8 +133,8 @@
                 <div class="grid-card card3">
                     <div class="card ">
                         <img src="/img/work/thumbnails/thumbnail_NickKyrios.jpg" alt="">
-                        <h4 class="card-title text-pink">Rebrand and Foundation Launch</h4>
-                        <h5 class="card-client text-pink">Nick Kyrios</h5>
+                        <h4 class="card-title">Rebrand and Foundation Launch</h4>
+                        <h5 class="card-client">Nick Kyrios</h5>
                         <div class="border"></div>
                         <a href="cs-nickkyrios.html"></a>
                     </div>
