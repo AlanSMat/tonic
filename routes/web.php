@@ -30,3 +30,11 @@ Route::get('/about-us', function () {
 Route::get('/case-study-template', function () {
     return view('case-study-template');
 })->name('case-study-template');
+
+Route::get('/case-study-lgbringcinemahome', function () {
+    return view('case-study-lgbringcinemahome');
+})->name('case-study-lgbringcinemahome');
+
+Route::get('/case-study-chromebook', function () {
+    return view('case-study-chromebook');
+})->name('case-study-chromebook');

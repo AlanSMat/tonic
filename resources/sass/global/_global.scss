@@ -393,16 +393,23 @@ a {
  .color-grey {
     background-color: #f9f9f9;
  }
+ .color-lg {
+    background-color: #A50034;
+ }
+ .color-lenovopink {
+    background-color: #F04286;
+ }
+ .color-cyan {
+    background-color: #4FBBD7;
+ }
  .body-orange {
    body {background-color: #F58674;}
  }
+
  .text-purple {
    color: $color1;
    span {
-     //color:#fff;
-     .text-pink {
-        color: $color2 !important;
-     }
+     color: #fff !important;
    }
  }
  
@@ -442,6 +449,12 @@ a {
    color: $colorDarkGrey;
  }
 
+ .text-lenovopink {
+   color: $colorLenovoPink;
+ }
+
+
+ 
  .grid {
     display: flex;
     flex-flow: row wrap;

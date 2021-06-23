@@ -446,13 +446,14 @@ $(window).scroll(function () {
         return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
       });
       // Remove all classes on header with color-
-      // $nav.removeClass(function (index, css) {
-      //   return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
-      // });
+      $nav.removeClass(function (index, css) {
+        return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+      });
       // Add class of currently active div
       $body.addClass('color-' + $(this).data('color'));
       $header.addClass('color-' + $(this).data('color'));
-      
+            
+      $nav.addClass('color-' + $(this).data('color'));
     }
   });
 }).scroll();

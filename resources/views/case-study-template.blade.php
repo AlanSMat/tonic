@@ -4,7 +4,7 @@
     <div class="logo-icon-home"></div>
     <section class="panel section section-cs-header color-lg" data-color="grey">
 
-		<button id="btn-down-click">
+		<button id="btn-click">
 			<img class="scroll-arrow" src="img/common/arrow-down.svg" alt="">
 		</button>
 
@@ -184,10 +184,6 @@
 	<!-- Section 3 -->
 	<section class="panel section section-cs" data-color="grey">
 		<div class="container-grid container-grid-cs">
-
-			
-
-			
 
 			<div class="cs-grid-2">
 				<img class="cs-image cs-image-padding" src="img/work/lg/bringcinemahome/Results_OLED-Sales.svg" alt="">
