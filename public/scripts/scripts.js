@@ -445,14 +445,15 @@ $(window).scroll(function () {
       $header.removeClass(function (index, css) {
         return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
       });
-      // Remove all classes on header with color-
+      // Remove all classes on the nav with color-
       $nav.removeClass(function (index, css) {
         return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
       });
       // Add class of currently active div
       $body.addClass('color-' + $(this).data('color'));
+      // Add class on header
       $header.addClass('color-' + $(this).data('color'));
-            
+      // Add class on nav
       $nav.addClass('color-' + $(this).data('color'));
     }
   });
