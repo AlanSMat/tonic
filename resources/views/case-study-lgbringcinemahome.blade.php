@@ -29,9 +29,11 @@
 						<p>Concept Development, Campaign Strategy, Creative Direction, Experiential, ATL, Digital, Social Media, Web design, OOH</p>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>
+	
 	<!-- Section 2 - Image -->
 	<section class="section section-cs-header-img" data-color="grey">
 		<img class="cs-header-image" src="img/work/lg/bringcinemahome/LG_BCH_1.jpg" alt="">
@@ -228,8 +230,8 @@
 					<div class="grid-card grid-card-3">
 						<div class="card ">
 							<img src="img/work/thumbnails/thumbnail_chromebook.jpg" alt="">
-							<h4 class="card-title text-pink">ChromeBook Launch Campaign</h4>
-							<h5 class="card-client text-pink">Lenovo</h5>
+							<h4 class="card-title">ChromeBook Launch Campaign</h4>
+							<h5 class="card-client">Lenovo</h5>
 							<div class="border"></div>
 						</div>
 					</div>

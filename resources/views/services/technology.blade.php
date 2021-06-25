@@ -24,7 +24,7 @@
     <div class="container-grid">
         <div class="title-panel title-2lines">
             <h2 class="section-title text-purple">What we</h2>
-			<h2 class="section-titleB text-purple">can offer <span class="text-orangetech">YOU.</span></h2>
+			<h2 class="section-titleB text-purple">can offer <span style="color:#F58674">YOU.</span></h2>
         </div>
         <div class="services-grid">
             <div class="services-grid-item">
@@ -110,8 +110,8 @@
                 <div class="grid-card">
                     <div class="card">
                     <img src="/img/work/thumbnails/thumbnail_rrkiosk.jpg" alt="">
-                        <h4 class="card-title">Project Name Here</h4>
-                        <h5 class="card-client">LG Electronics</h5>
+                        <h4 class="card-title">Project Finder Kiosk</h4>
+                        <h5 class="card-client">Rhino Rock</h5>
                         <div class="border"></div>
                     </div>
                 </div>
@@ -119,8 +119,8 @@
                 <div class="grid-card">
                     <div class="card">
                         <img src="/img/work/thumbnails/thumbnail_adf.jpg" alt="">
-                        <h4 class="card-title">Project Name Here</h4>
-                        <h5 class="card-client">LG Electronics</h5>
+                        <h4 class="card-title">Virtual Career Portal</h4>
+                        <h5 class="card-client">Australian Defence Force</h5>
                         <div class="border"></div>
                     </div>
                 </div>
@@ -128,8 +128,8 @@
                 <div class="grid-card grid-card-3">
                     <div class="card ">
                         <img src="/img/work/thumbnails/thumbnail_vouchr.jpg" alt="">
-                        <h4 class="card-title text-pink">Project Name Here</h4>
-                        <h5 class="card-client text-pink">LG Electronics</h5>
+                        <h4 class="card-title">Mobile Marketing Plateform</h4>
+                        <h5 class="card-client">Vouchr</h5>
                         <div class="border"></div>
                     </div>
                 </div>

@@ -35,8 +35,8 @@
 
 
 .headline-header {
-  margin-bottom: 40px;
-  @media (max-width: 1500px) {margin-bottom: 40px;}
+  margin-bottom: 50px;
+  @media (max-width: 1500px) {margin-bottom: 50px;}
   @media (max-width: 960px) {margin-bottom: 40px;}
   @media (max-width: 480px) {
     margin-bottom: 25px;
@@ -67,11 +67,9 @@
   align-items: center;
   transition: all .7s ease;
 
-  @media (max-width: 1080px) {margin: 0 70px 0 70px;}
-
-  @media (max-width: 960px) {
-    flex-direction: column;
-    margin: 0 80px 0 80px;
+  @media (max-width: 1080px) {
+    flex-direction: column-reverse;
+    margin: 0 70px 0 70px;
   }
   @media (max-width: 680px) {margin: 0 50px 0 50px;}
   @media (max-width: 480px) {margin: 0 30px 0 30px;}
@@ -109,6 +107,7 @@
     a {width: 140px; padding: 8px 24px;}
   }
   @media (max-width: 480px) {
+
     a {width: 130px; padding: 8px 20px;}
   }
 }
@@ -120,25 +119,32 @@
 
 .text-left {
   position: relative;
-  width: 42%;
+  width: 42% ;
+  margin-top: 100px;
 
-  @media (max-width: 1240px) {width: 43%;}
-
-  @media (max-width: 960px) {
-    width: 100%;
-    margin-top: 620px;
-    padding-right: 80px;
+  @media (max-width: 1240px) {
+    width: 43%;
+    margin-top: 50px;
   }
-  @media (max-width: 800px) {margin-top: 600px;}
-  @media (max-width: 680px) {margin-top: 460px; padding-right: 50px;}
-  @media (max-width: 480px) {margin-top: 330px; padding-right: 30px;}
+  @media (max-width: 1080px) {
+    width: 100%;
+    padding-right: 120px;
+  }
+  @media (max-width: 800px) {}
+  @media (max-width: 680px) {
+    margin-top: 0px; 
+    padding-right: 14px;}
 }
 
 .section-p, .services-p {
   font-size: 1.438em;
   line-height: 1.6em;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
   @media (max-width: 1500px) {
+    font-size: 1.125em; 
+    margin-bottom: 90px;
+  }
+  @media (max-width: 1080px) {
     font-size: 1.125em; 
     margin-bottom: 70px;
   }

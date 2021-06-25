@@ -111,9 +111,9 @@
   }
   
   .services-title {
-    margin-bottom: 40px;
-    @media (max-width: 1240px) {margin-bottom: 12px;}
-    @media (max-width: 480px) {}
+    margin-bottom: 0px;
+    @media (max-width: 1080px) { margin-bottom: 0px; }
+    @media (max-width: 480px) { margin-bottom: 10px; }
     &.active {
         h5 {
             color: $color1;

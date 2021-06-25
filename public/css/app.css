@@ -141,18 +141,20 @@ p.section-p {
   mask: url("/img/common/tonic_logo_icon.svg") no-repeat center/contain;
   -webkit-mask: url("/img/common/tonic_logo_icon.svg") no-repeat center/contain;
 }
+@media (max-width: 1080px) {
+  .logo-icon-home {
+    width: 52px;
+    height: 47px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
 @media (max-width: 480px) {
   .logo-icon-home {
     width: 42px;
     height: 36px;
     bottom: 20px;
     right: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .services-nav {
-    display: none;
   }
 }
 
@@ -226,35 +228,27 @@ p.section-p {
   background-color: #31006F;
 }
 
-.scroll-arrow {
-  position: absolute;
-  left: 20px;
-  height: 30px;
-  width: 22px;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-name: arrow;
-  animation-name: arrow;
-  -webkit-animation: arrow 1s infinite ease-in-out;
-  animation: arrow 1s infinite ease-in-out;
-  mask: url("/img/common/arrow-down.svg") no-repeat center/contain;
-  -webkit-mask: url("/img/common/arrow-down.svg") no-repeat center/contain;
-}
-.scroll-arrow.__white {
-  background-color: #fff;
-}
-
 .services-nav {
   position: absolute;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  margin-top: 4px;
+  margin-top: 8px;
   right: 110px;
 }
 .services-nav a {
   padding-right: 40px;
-  font-size: 1.125em;
+  font-size: 0.938em;
+}
+@media (max-width: 1080px) {
+  .services-nav {
+    margin-top: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .services-nav {
+    display: none;
+  }
 }
 
 a {
@@ -274,7 +268,7 @@ a {
 .menu-button {
   position: fixed;
   margin: 0;
-  top: 50px;
+  top: 40px;
   right: 50px;
   width: 40px;
   height: 40px;
@@ -356,95 +350,8 @@ a {
   background-color: #FBE32C;
 }
 
-.scroll-arrow {
-  position: absolute;
-  left: 20px;
-  height: 30px;
-  animation-fill-mode: forwards;
-  animation-name: arrow;
-  animation: arrow 1s infinite ease-in-out;
-}
-@media (max-width: 1300px) {
-  .scroll-arrow {
-    left: 14px;
-  }
-}
-@media (max-width: 680px) {
-  .scroll-arrow {
-    left: 12px;
-    height: 22px;
-  }
-}
-@keyframes arrow {
-  0% {
-    bottom: 10px;
-  }
-  50% {
-    bottom: 20px;
-  }
-  100% {
-    bottom: 10px;
-  }
-}
-.scroll-arrow img {
-  height: 34px;
-}
-@media (max-width: 680px) {
-  .scroll-arrow img {
-    height: 26px;
-  }
-}
-
 .arrow-up {
   transform: rotate(180deg);
-}
-
-#btn-down-click,
-#btn-up-click {
-  position: absolute;
-  left: 30px;
-  bottom: 40px;
-  width: 64px;
-  height: 64px;
-  border: none;
-  background: none;
-  z-index: 1;
-  cursor: pointer;
-}
-@media (max-width: 1300px) {
-  #btn-down-click,
-#btn-up-click {
-    left: 12px;
-    bottom: 30px;
-    width: 50px;
-  }
-}
-@media (max-width: 1040px) {
-  #btn-down-click,
-#btn-up-click {
-    left: 12px;
-    bottom: 30px;
-    width: 50px;
-  }
-}
-@media (max-width: 680px) {
-  #btn-down-click,
-#btn-up-click {
-    left: 10px;
-    height: 50px;
-    bottom: 20px;
-    width: 44px;
-  }
-}
-@media (max-width: 480px) {
-  #btn-down-click,
-#btn-up-click {
-    left: 14px;
-    height: 44px;
-    bottom: -20px;
-    width: 40px;
-    z-index: 3;
-  }
 }
 
 .color-purple {
@@ -545,10 +452,6 @@ a {
 }
 .grid img.grid-item {
   max-width: 188px;
-}
-
-.header-icon {
-  width: 50%;
 }
 
 @media (max-width: 1540px) {
@@ -666,7 +569,7 @@ header {
   z-index: 10;
   top: 0;
   left: 0;
-  padding: 40px 50px 30px 40px;
+  padding: 30px 50px 30px 40px;
   width: 100%;
 }
 @media (max-width: 800px) {
@@ -957,11 +860,11 @@ footer p, footer a {
 }
 
 .headline-header {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 @media (max-width: 1500px) {
   .headline-header {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 960px) {
@@ -1016,13 +919,8 @@ footer p, footer a {
 }
 @media (max-width: 1080px) {
   .container-page {
+    flex-direction: column-reverse;
     margin: 0 70px 0 70px;
-  }
-}
-@media (max-width: 960px) {
-  .container-page {
-    flex-direction: column;
-    margin: 0 80px 0 80px;
   }
 }
 @media (max-width: 680px) {
@@ -1104,43 +1002,39 @@ footer p, footer a {
 .text-left {
   position: relative;
   width: 42%;
+  margin-top: 100px;
 }
 @media (max-width: 1240px) {
   .text-left {
     width: 43%;
+    margin-top: 50px;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
   .text-left {
     width: 100%;
-    margin-top: 620px;
-    padding-right: 80px;
-  }
-}
-@media (max-width: 800px) {
-  .text-left {
-    margin-top: 600px;
+    padding-right: 120px;
   }
 }
 @media (max-width: 680px) {
   .text-left {
-    margin-top: 460px;
-    padding-right: 50px;
-  }
-}
-@media (max-width: 480px) {
-  .text-left {
-    margin-top: 330px;
-    padding-right: 30px;
+    margin-top: 0px;
+    padding-right: 14px;
   }
 }
 
 .section-p, .services-p {
   font-size: 1.438em;
   line-height: 1.6em;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 @media (max-width: 1500px) {
+  .section-p, .services-p {
+    font-size: 1.125em;
+    margin-bottom: 90px;
+  }
+}
+@media (max-width: 1080px) {
   .section-p, .services-p {
     font-size: 1.125em;
     margin-bottom: 70px;
@@ -1536,11 +1430,16 @@ section {
 }
 
 .services-title {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
-@media (max-width: 1240px) {
+@media (max-width: 1080px) {
   .services-title {
-    margin-bottom: 12px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .services-title {
+    margin-bottom: 10px;
   }
 }
 .services-title.active h5 {
@@ -2788,45 +2687,108 @@ button:hover h1 {
 }
 
 .header-icon {
-  width: 45%;
+  width: 27em;
 }
 @media (max-width: 1080px) {
   .header-icon {
-    width: 54%;
-  }
-}
-@media (max-width: 960px) {
-  .header-icon {
-    position: absolute;
-    width: 74%;
-    top: -56%;
-  }
-}
-@media (max-width: 800px) {
-  .header-icon {
-    width: 80%;
-    bottom: -20%;
-  }
-}
-@media (max-width: 680px) {
-  .header-icon {
-    width: 90%;
-    bottom: 35%;
+    margin-top: 45px;
+    width: 78%;
   }
 }
 @media (max-width: 480px) {
   .header-icon {
     width: 80%;
-    top: 20px;
+    margin-top: 80px;
   }
 }
 
-@media (max-width: 960px) {
-  .header-icon-about {
-    position: absolute;
-    width: 84%;
-    top: -16%;
+.scroll-arrow {
+  position: absolute;
+  left: 20px;
+  height: 30px;
+  animation-fill-mode: forwards;
+  animation-name: arrow;
+  animation: arrow 1s infinite ease-in-out;
+}
+@media (max-width: 1300px) {
+  .scroll-arrow {
+    left: 14px;
   }
+}
+@media (max-width: 680px) {
+  .scroll-arrow {
+    left: 12px;
+    height: 22px;
+  }
+}
+@keyframes arrow {
+  0% {
+    bottom: 10px;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}
+.scroll-arrow img {
+  height: 34px;
+}
+@media (max-width: 680px) {
+  .scroll-arrow img {
+    height: 26px;
+  }
+}
+
+.arrow-up {
+  transform: rotate(180deg);
+}
+
+#btn-click, #btn2-click, #btn-click-cs {
+  position: absolute;
+  bottom: 40px;
+  width: 64px;
+  height: 64px;
+  border: none;
+  background: none;
+  z-index: 3;
+  cursor: pointer;
+}
+@media (max-width: 1300px) {
+  #btn-click, #btn2-click, #btn-click-cs {
+    left: 12px;
+    bottom: 30px;
+    width: 50px;
+  }
+}
+@media (max-width: 680px) {
+  #btn-click, #btn2-click, #btn-click-cs {
+    left: 10px;
+    height: 50px;
+    bottom: 20px;
+    width: 44px;
+  }
+}
+@media (max-width: 480px) {
+  #btn-click, #btn2-click, #btn-click-cs {
+    left: 4px;
+    height: 44px;
+    bottom: 20px;
+    width: 40px;
+  }
+}
+
+#btn-click-cs {
+  right: 30px;
+}
+
+#btn-click, #btn2-click {
+  left: 30px;
+}
+
+#btn2-click:hover {
+  background: rgba(255, 255, 255, 0.02);
 }
 
 /*# sourceMappingURL=app.css.map */

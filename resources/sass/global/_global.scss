@@ -115,6 +115,12 @@ h1 {
     background-color: #fff;
     mask: url("/img/common/tonic_logo_icon.svg") no-repeat center / contain;
     -webkit-mask: url("/img/common/tonic_logo_icon.svg") no-repeat center / contain;
+    @media (max-width: 1080px) {
+      width: 52px;
+      height: 47px;
+      bottom: 20px;
+      right: 20px;
+    }
     @media (max-width: 480px) {
       width: 42px;
       height: 36px;
@@ -122,11 +128,6 @@ h1 {
       right: 20px;
     }
 }
-
-.services-nav {
-  @media (max-width: 480px) {display: none;}
-}
-
 .color-orange {
     .brand-logo,
     .logo-icon-home {
@@ -203,35 +204,19 @@ h1 {
     }
 }
 
-.scroll-arrow {
-    &.__white {
-        background-color: #fff;
-    }
-    position: absolute;
-    left: 20px;
-    height: 30px;
-    width: 22px;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-name: arrow;
-    animation-name: arrow;
-    -webkit-animation: arrow 1s infinite ease-in-out;
-    animation: arrow 1s infinite ease-in-out;
-    mask: url("/img/common/arrow-down.svg") no-repeat center / contain;
-    -webkit-mask: url("/img/common/arrow-down.svg") no-repeat center / contain;
-}
-
 .services-nav {
     position: absolute;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    margin-top: 4px;
+    margin-top: 8px;
     right: 110px;
     a {
         padding-right: 40px;
-        font-size: 1.125em;
+        font-size: 0.938em;
     }
+    @media (max-width: 1080px) {margin-top: 12px;}
+    @media (max-width: 480px) {display: none;}
 }
 
 a {
@@ -251,7 +236,7 @@ a {
 .menu-button {
     position: fixed;
     margin: 0;
-    top: 50px;
+    top: 40px;
     right: 50px;
     width: 40px;
     height: 40px;
@@ -318,55 +303,8 @@ a {
 ::-webkit-scrollbar-track {background-color: none;}
 ::-webkit-scrollbar-thumb {background-color: #FBE32C;}
 
-.scroll-arrow {
-    position: absolute;
-    left: 20px;
-    height: 30px;
-    animation-fill-mode: forwards;
-    animation-name: arrow;
-    animation: arrow 1s infinite ease-in-out;
-  
-    @media (max-width: 1300px) {left: 14px;}
-    @media (max-width: 680px) {left: 12px; height: 22px;}
-  
-    @keyframes arrow {
-      0% {bottom: 10px;}
-      50% {bottom: 20px;}
-      100% {bottom: 10px;}
-    }
-  
-    img {
-      height: 34px;
-      @media (max-width: 680px) {height: 26px;}
-    }
-  }
-  
-  .arrow-up {
-    transform: rotate(180deg);
-  }
-
-#btn-down-click, 
-#btn-up-click {
-    position: absolute;
-    left: 30px;
-    bottom: 40px;
-    width:64px;
-    height: 64px;
-    border: none;
-    background: none;
-    z-index: 1;
-    cursor: pointer;
-    //background-color: green;
-  
-    @media (max-width: 1300px) {left: 12px; bottom: 30px; width: 50px;}
-    @media (max-width: 1040px) {left: 12px; bottom: 30px; width: 50px;}
-    @media (max-width: 680px) {left: 10px; height: 50px; bottom: 20px; width: 44px;}
-    @media (max-width: 480px) {
-      left: 14px; 
-      height: 44px; 
-      bottom: -20px; width: 40px;
-      z-index: 3;
-    }
+.arrow-up {
+  transform: rotate(180deg);
 }
 
 .color-purple {
@@ -405,7 +343,6 @@ a {
  .body-orange {
    body {background-color: #F58674;}
  }
-
  .text-purple {
    color: $color1;
    span {
@@ -464,10 +401,6 @@ a {
             max-width: 188px;
         }
     }
-}
-
-.header-icon {
-    width: 50%;
 }
 
 @media (max-width: 1540px) {

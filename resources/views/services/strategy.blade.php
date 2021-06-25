@@ -3,29 +3,32 @@
 @section('content')
 <div class="logo-icon-home"></div>
 <section class="panel section section-services" data-color="teal">
-    
-    <button id="btn-down-click">
-        <a class="scroll-arrow __white"></a>
-    </button>
 
     <div class="container-page">
+
         <div class="text-left">
             <h5 class="services-title title-scroll text-purple">Services</h5>
             <h1 class="services-header headline-header text-purple"><span>Strategy</span></h1>
             <p class="header-p section-p services-p">Insights gleaned from hours of obsessing and years of experience form the foundation upon which brilliant solutions can come to life.</p>
             <p class="header-p section-p">analyse, deep-dive, test, challenge, astonish</p>
         </div>
+        
         <!-- Icon Animation -->
         <div class="header-icon" id="strategy-icon"></div>
-
+        
+        <button id="btn-click">
+			<img class="scroll-arrow" src="img/common/arrow-down.svg" alt="">
+		</button>
     </div>
+
 </section>
+
 <!-- Section 2 -->
 <section class="panel section section-sml" data-color="grey">
     <div class="container-grid">
         <div class="title-panel title-2lines">
             <h2 class="section-title text-purple">What we</h2>
-			<h2 class="section-titleB text-purple">can offer <span class="text-teal">YOU.</span></h2>
+			<h2 class="section-titleB text-purple">can offer <span style="color:#6FC7B0">YOU.</span></h2>
         </div>
         <div class="services-grid">
             <div class="services-grid-item">
@@ -129,8 +132,8 @@
                 <div class="grid-card grid-card-3">
                     <div class="card ">
                         <img src="/img/work/thumbnails/thumbnail_chromebook.jpg" alt="">
-                        <h4 class="card-title text-pink">ChromeBook Launch Campaign</h4>
-                        <h5 class="card-client text-pink">Lenovo</h5>
+                        <h4 class="card-title text-white">ChromeBook Launch Campaign</h4>
+                        <h5 class="card-client text-white">Lenovo</h5>
                         <div class="border"></div>
                     </div>
                 </div>
