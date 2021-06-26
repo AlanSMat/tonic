@@ -8,9 +8,13 @@
     margin-top: 190px;
     margin-bottom: 190px;
     .grid-container {
-        margin: 0 auto;
+        margin: 0 120px;
+        @media (max-width: 800px) {
+            margin: 0 84px;
+        }
         h2 {
-            margin: 0 3.5% 50px;
+            margin: 0;
+            line-height: 48px;
             span {
                 color: #fff;
             }
@@ -19,10 +23,8 @@
             max-width: 1540px;
             display: flex;
             flex-flow: row wrap;
-            justify-content: space-around;
+            justify-content: space-between;
             .grid-card {
-                width: 100%;
-                position: relative;
                 transition: -webkit-transform .4s ease-in-out;
                 transition: transform .4s ease-in-out;
                 transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
@@ -32,13 +34,32 @@
                 transform-style: preserve-3d;
                 cursor: url("/img/common/cursor-icon.svg"),auto;
                 max-width: 26.5%;
-                &.card1 {
-                    margin-top: 60px;
+                @media (max-width: 800px) {
+                    width: 275px;
                 }
+                &.card1:nth-child(1) {
+                    margin-top: 50px;
+                }
+                // &.card1:nth-child(1n) {
+                //     margin-top: 50px;
+                // }
                 &.card2 {
-                    margin-top: 150px;
+                    margin-top: 0px;
+                }
+                &.card3 {
+                    margin-top: 0px;
                 }
             }
         }
     }
 }
+@media (max-width: 800px) {
+//     .card1:nth-child(1n) {
+//         margin-top: 60px;
+//     }
+}
+// @media (max-width: 480px) {
+//     .grid-card:nth-child(2) {
+//         display: none;
+//     }
+// }

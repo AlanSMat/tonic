@@ -94,22 +94,22 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 100px;
-  a {
-    width: 200px;
-    height: 44px;
-    border-radius: 25px;
-    border: 2px solid $color2;
-    padding: 8px 30px;
-  }
-  @media (max-width: 1240px) {margin-bottom: 60px;}
-  @media (max-width: 680px) {
-    margin-bottom: 34px;
-    a {width: 140px; padding: 8px 24px;}
-  }
-  @media (max-width: 480px) {
+  // a {
+  //   width: 200px;
+  //   height: 44px;
+  //   border-radius: 25px;
+  //   border: 2px solid $color2;
+  //   padding: 8px 0 8px 30px;
+  // }
+  // @media (max-width: 1240px) {margin-bottom: 60px;}
+  // @media (max-width: 680px) {
+  //   margin-bottom: 34px;
+  //   a {width: 140px; padding: 8px 24px;}
+  // }
+  // @media (max-width: 480px) {
 
-    a {width: 130px; padding: 8px 20px;}
-  }
+  //   a {width: 130px; padding: 8px 20px;}
+  // }
 }
 
 .title-2lines {

@@ -5,10 +5,6 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-//Route::get('/services', function () {
-//    return view('services');
-//})->name('services');
-
 Route::prefix('services')->group(function(){
     Route::get('/', 'ServicesController@index')->name('services');
     Route::get('/creative', 'ServicesController@creative')->name('creative');
@@ -31,10 +27,15 @@ Route::get('/case-study-template', function () {
     return view('case-study-template');
 })->name('case-study-template');
 
-Route::get('/case-study-lgbringcinemahome', function () {
-    return view('case-study-lgbringcinemahome');
-})->name('case-study-lgbringcinemahome');
+Route::prefix('case-studies')->group(function(){
+    Route::get('/', 'CaseStudiesController@index')->name('lgcinema');
+    Route::get('/chromebook', 'CaseStudiesController@chromebook')->name('chromebook');
+});
 
-Route::get('/case-study-chromebook', function () {
-    return view('case-study-chromebook');
-})->name('case-study-chromebook');
+// Route::get('/case-study-lgbringcinemahome', function () {
+//     return view('case-study-lgbringcinemahome');
+// })->name('case-study-lgbringcinemahome');
+
+// Route::get('/case-study-chromebook', function () {
+//     return view('case-study-chromebook');
+// })->name('case-study-chromebook');

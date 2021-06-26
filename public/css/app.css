@@ -966,33 +966,6 @@ footer p, footer a {
   align-items: flex-end;
   margin-bottom: 100px;
 }
-.title-panel a {
-  width: 200px;
-  height: 44px;
-  border-radius: 25px;
-  border: 2px solid #FF75B7;
-  padding: 8px 30px;
-}
-@media (max-width: 1240px) {
-  .title-panel {
-    margin-bottom: 60px;
-  }
-}
-@media (max-width: 680px) {
-  .title-panel {
-    margin-bottom: 34px;
-  }
-  .title-panel a {
-    width: 140px;
-    padding: 8px 24px;
-  }
-}
-@media (max-width: 480px) {
-  .title-panel a {
-    width: 130px;
-    padding: 8px 20px;
-  }
-}
 
 .title-2lines {
   display: block;
@@ -1336,7 +1309,7 @@ section {
   width: 31.334%;
   display: flex;
   justify-content: space-between;
-  height: 60px;
+  height: 40px;
   border-bottom: 1px solid #31006F;
   margin: 0 0 3%;
 }
@@ -2243,10 +2216,16 @@ section {
   margin-bottom: 190px;
 }
 .work .grid-container {
-  margin: 0 auto;
+  margin: 0 120px;
+}
+@media (max-width: 800px) {
+  .work .grid-container {
+    margin: 0 84px;
+  }
 }
 .work .grid-container h2 {
-  margin: 0 3.5% 50px;
+  margin: 0;
+  line-height: 48px;
 }
 .work .grid-container h2 span {
   color: #fff;
@@ -2255,11 +2234,9 @@ section {
   max-width: 1540px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .work .grid-container .work-grid .grid-card {
-  width: 100%;
-  position: relative;
   transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
@@ -2270,11 +2247,19 @@ section {
   cursor: url("/img/common/cursor-icon.svg"), auto;
   max-width: 26.5%;
 }
-.work .grid-container .work-grid .grid-card.card1 {
-  margin-top: 60px;
+@media (max-width: 800px) {
+  .work .grid-container .work-grid .grid-card {
+    width: 275px;
+  }
+}
+.work .grid-container .work-grid .grid-card.card1:nth-child(1) {
+  margin-top: 50px;
 }
 .work .grid-container .work-grid .grid-card.card2 {
-  margin-top: 150px;
+  margin-top: 0px;
+}
+.work .grid-container .work-grid .grid-card.card3 {
+  margin-top: 0px;
 }
 
 #morph {
@@ -2340,15 +2325,29 @@ button:hover h1 {
   height: 44px;
   border-radius: 25px;
   border: 2px solid #FF75B7;
-  padding: 8px 30px;
+  padding: 11px 30px 6px 30px;
+  margin-bottom: 6px;
+}
+@media (max-width: 480px) {
+  .button {
+    width: 130px;
+    height: 44px;
+    padding: 11px 20px 6px 20px;
+  }
 }
 .button img {
   z-index: 2;
   width: 14px;
+  margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
+@media (max-width: 480px) {
+  .button img {
+    margin-left: 4px;
+  }
+}
 .button:hover {
-  color: #31006F;
+  color: #FF75B7;
 }
 .button:hover img {
   margin-right: -10px;
@@ -2404,7 +2403,7 @@ button:hover h1 {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
   .grid-card {
     width: 48%;
   }
@@ -2412,7 +2411,6 @@ button:hover h1 {
 @media (max-width: 480px) {
   .grid-card {
     width: 100%;
-    margin-bottom: 40px;
   }
 }
 .grid-card:hover .card {
@@ -2447,7 +2445,7 @@ button:hover h1 {
   letter-spacing: normal;
   font-size: 1.25em;
   color: #fff;
-  margin-bottom: 30px;
+  height: 60px;
 }
 .grid-card h5 {
   font-size: 0.875em;
@@ -2469,11 +2467,6 @@ button:hover h1 {
   }
 }
 
-@media (max-width: 800px) {
-  .grid-card:nth-child(3) {
-    display: none;
-  }
-}
 .contact-form {
   width: 100%;
   margin-bottom: 0;

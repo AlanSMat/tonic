@@ -20,16 +20,27 @@ button {
     height: 44px;
     border-radius: 25px;
     border: 2px solid #FF75B7;
-    padding: 8px 30px;
+    padding: 11px 30px 6px 30px;
+    margin-bottom: 6px;
+    @media (max-width: 480px) {
+      width: 130px;
+      height: 44px;
+      padding: 11px 20px 6px 20px;
+    }
+
   
     img {
       z-index: 2;
       width: 14px;
+      @media (max-width: 480px) {
+        margin-left: 4px;
+      }
+      margin-bottom: 5px;
       transition: all 0.3s ease-in-out;
     }
   
     &:hover {
-      color: $color1;
+      color: $color2;
       img {margin-right: -10px}
     }
   }

@@ -15,7 +15,7 @@
         
         <!-- Icon Animation -->
         <div class="header-icon" id="strategy-icon"></div>
-        
+
         <button id="btn-click">
 			<img class="scroll-arrow" src="img/common/arrow-down.svg" alt="">
 		</button>
@@ -30,65 +30,50 @@
             <h2 class="section-title text-purple">What we</h2>
 			<h2 class="section-titleB text-purple">can offer <span style="color:#6FC7B0">YOU.</span></h2>
         </div>
-        <div class="services-grid">
-            <div class="services-grid-item">
-                <h6>Branding</h6>
-                <h6>+</h6>
-            </div>
+        <div class="services-grid" style="opacity: 1; transform: translate(0px, 0px);">
+        
             <div class="services-grid-item">
                 <h6>Campaign Strategy</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Direct Mail</h6>
+                <h6>Lead Acquisition</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Concept Development</h6>
+                <h6>Channel Marketing</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>UX/UI</h6>
+                <h6>Social Media Strategy</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Design</h6>
+                <h6>Brand Strategy</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Art Direction</h6>
+                <h6>Reporting</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Social Media</h6>
+                <h6>Lead Nurturing</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Tone Of Voice</h6>
+                <h6>Consumer Engagement</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Copywriting</h6>
+                <h6>Promotions &amp; Activations</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Web Design</h6>
+                <h6>Digital Strategy</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Digital</h6>
-                <h6>+</h6>
-            </div>
-            <div class="services-grid-item">
-                <h6>Concept Development</h6>
-                <h6>+</h6>
-            </div>
-            <div class="services-grid-item">
-                <h6>Campaign Development</h6>
-                <h6>+</h6>
-            </div>
-            <div class="services-grid-item">
-                <h6>Content</h6>
+                <h6>Tactical</h6>
                 <h6>+</h6>
             </div>
 

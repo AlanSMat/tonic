@@ -3,8 +3,8 @@
 @section('content')
 <div class="logo-icon-home"></div>
 <button id="btn-click">
-    <img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
-</button>
+	    <img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
+	</button>
 <section id="sect-creative-1" class="panel section section-services" data-color="pink">
     
     <div class="container-page">
@@ -27,17 +27,10 @@
             <h2 class="section-title text-purple">What we</h2>
             <h2 class="section-titleB text-purple">can offer <span class="text-pink">YOU.</span></h2>
         </div>
-        <div class="services-grid">
+
+        <div class="services-grid" style="opacity: 1; transform: translate(0px, 0px);">
             <div class="services-grid-item">
-                <h6>Branding</h6>
-                <h6>+</h6>
-            </div>
-            <div class="services-grid-item">
-                <h6>Campaign Strategy</h6>
-                <h6>+</h6>
-            </div>
-            <div class="services-grid-item">
-                <h6>Direct Mail</h6>
+                <h6>Campaign Development</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
@@ -45,7 +38,11 @@
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>UX/UI</h6>
+                <h6>Branding</h6>
+                <h6>+</h6>
+            </div>
+            <div class="services-grid-item">
+                <h6>Creative &amp; Art Direction</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
@@ -53,7 +50,11 @@
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Art Direction</h6>
+                <h6>UX/UI</h6>
+                <h6>+</h6>
+            </div>
+            <div class="services-grid-item">
+                <h6>Copywriting</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
@@ -65,7 +66,7 @@
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Copywriting</h6>
+                <h6>App Design</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
@@ -73,19 +74,19 @@
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Digital</h6>
+                <h6>Digital Creative</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Concept Development</h6>
+                <h6>Experiential</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Campaign Development</h6>
+                <h6>Direct Mail</h6>
                 <h6>+</h6>
             </div>
             <div class="services-grid-item">
-                <h6>Content</h6>
+                <h6>Content &amp; Photography</h6>
                 <h6>+</h6>
             </div>
 

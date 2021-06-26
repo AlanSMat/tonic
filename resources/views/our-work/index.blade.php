@@ -165,5 +165,5 @@
 @section('script')
 <script type="text/javascript" src="{{ asset('scripts/lottie.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('scripts/vendor.js') }}"></script>
-<script type="text/javascript" src="{{ asset('scripts/scripts.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/scripts.js') }}"></script>
 @endsection
