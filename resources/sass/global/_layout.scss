@@ -130,10 +130,20 @@
     width: 100%;
     padding-right: 120px;
   }
-  @media (max-width: 800px) {}
+  @media (max-width: 800px) {
+    margin-top: 582px; 
+  }
   @media (max-width: 680px) {
-    margin-top: 0px; 
-    padding-right: 14px;}
+    margin-top: 340px; 
+    padding-right: 14px;
+  }
+}
+
+.text-left-services {
+  @media (max-width: 680px) {
+    margin-top: 375px; 
+    padding-right: 14px;
+  }
 }
 
 .section-p, .services-p {

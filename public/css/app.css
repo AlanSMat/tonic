@@ -1029,9 +1029,21 @@ footer p, footer a {
     padding-right: 120px;
   }
 }
+@media (max-width: 800px) {
+  .text-left {
+    margin-top: 582px;
+  }
+}
 @media (max-width: 680px) {
   .text-left {
-    margin-top: 0px;
+    margin-top: 340px;
+    padding-right: 14px;
+  }
+}
+
+@media (max-width: 680px) {
+  .text-left-services {
+    margin-top: 375px;
     padding-right: 14px;
   }
 }
@@ -2839,6 +2851,13 @@ button:hover h1 {
   .header-icon {
     margin-top: 65px;
     width: 74%;
+  }
+}
+@media (max-width: 800px) {
+  .header-icon {
+    position: absolute;
+    width: 80%;
+    top: 0px;
   }
 }
 @media (max-width: 480px) {

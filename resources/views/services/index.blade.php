@@ -3,6 +3,7 @@
 @section('content')
 <!-- Section 1 -->
 <section class="panel section" data-color="purple">
+    
     <button id="btn-click">
         <img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
     </button>
@@ -16,6 +17,7 @@
         <!-- Icon Animation -->
         <div class="header-icon" id="services-icon"></div>
     </div>
+
 </section>
 <!-- Section 2 -->
 <section class="panel section" data-color="pink">
