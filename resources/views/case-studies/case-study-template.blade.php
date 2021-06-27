@@ -4,7 +4,7 @@
     <div class="logo-icon-home"></div>
     <section class="panel section section-cs-header color-lg" data-color="grey">
 
-		<button id="btn-click">
+		<button id="btn-click-cs">
 			<img class="scroll-arrow" src="img/common/arrow-down.svg" alt="">
 		</button>
 

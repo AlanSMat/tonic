@@ -1,0 +1,29 @@
+// Case Study - Parallax Header Image
+
+.parallax-window {
+    height: 900px;
+    background: transparent;
+    background-position: bottom;
+}
+
+.parallax-mirror {
+  //padding-top: 500px;
+  //height: 1200px;
+}
+
+.parallax-slider {
+  margin-top: 100px;
+  height: 1500px;
+}
+
+
+/* Different background colors for demo purpose */
+.static-one {
+  //background-color: #feceab;
+  height: 80vh;
+  z-index: 2;
+}
+
+.static-three {
+  background-color: #feceab;
+}

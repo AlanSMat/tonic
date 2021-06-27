@@ -459,6 +459,25 @@ $(window).scroll(function () {
   });
 }).scroll();
 
+/* removes the class from the header and nav when the menu toggle icon is clicked */
+$(".menu-button").click(function () {
+
+  var $header = $("header"),
+      $nav = $('.services-nav');
+
+  // Remove all classes on header with color-
+  $header.removeClass(function (index, css) {
+    console.log(css.match(/(^|\s)color-\S+/g));
+    return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+  });
+
+  $nav.removeClass(function (index, css) {
+    console.log(css.match(/(^|\s)color-\S+/g));
+    return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+  });
+
+});
+
 /* Services Links Titles */
 
 $(".btnService1").click(function () {

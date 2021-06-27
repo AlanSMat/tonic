@@ -53,13 +53,17 @@
         }
     }
 }
-@media (max-width: 800px) {
-//     .card1:nth-child(1n) {
-//         margin-top: 60px;
-//     }
+.work-filter, .back-btn {
+    position: fixed;
+    height: 100%;
+    font-size: 1.125em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
 }
-// @media (max-width: 480px) {
-//     .grid-card:nth-child(2) {
-//         display: none;
-//     }
-// }
+
+.back-btn {
+    left: 30px;
+}

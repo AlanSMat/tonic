@@ -2,6 +2,9 @@
 
 @section('content')
 <div class="logo-icon-home"></div>
+<button id="btn-click">
+    <img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
+</button>
 <section class="panel section section-services" data-color="teal">
 
     <div class="container-page">

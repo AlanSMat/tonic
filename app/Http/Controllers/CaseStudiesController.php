@@ -19,19 +19,24 @@ class CaseStudiesController extends Controller
         return view('case-studies.chromebook');       
     }
 
-    // public function technology()
-    // {
-    //     return view('services.technology');       
-    // }
+    public function hempblack()
+    {
+        return view('case-studies.hempblack');       
+    }
 
-    // public function strategy()
-    // {
-    //     return view('services.strategy');       
-    // }
+    public function inkforgood()
+    {
+        return view('case-studies.inkforgood');       
+    }
 
-    // public function show($slug)
-    // {
-    //     return view('new-developments.project-show', compact('project'));
-    // }
+    public function lgfreestyler()
+    {
+        return view('case-studies.lgfreestyler');       
+    }
+
+    public function mkiosk()
+    {
+        return view('case-studies.mkiosk');       
+    }
     
 }

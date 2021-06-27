@@ -213,7 +213,7 @@ h1 {
     right: 110px;
     a {
         padding-right: 40px;
-        font-size: 0.938em;
+        font-size: 1.125em;
     }
     @media (max-width: 1080px) {margin-top: 12px;}
     @media (max-width: 480px) {display: none;}
@@ -337,9 +337,16 @@ a {
  .color-lenovopink {
     background-color: #F04286;
  }
- .color-cyan {
-    background-color: #4FBBD7;
+ .color-hempblack {
+    background-color: #669364;
  }
+ .color-inkforgood {
+    background-color: #00ADEF;
+ }
+ .color-mkiosk {
+    background-color: #005CB9;
+}
+
  .body-orange {
    body {background-color: #F58674;}
  }
@@ -366,9 +373,6 @@ a {
  
  .text-pink {
    color: $color2 !important;
-  //  span {
-  //    color: #fff;
-  //  }
  }
  
  .text-teal {
@@ -390,6 +394,15 @@ a {
    color: $colorLenovoPink;
  }
 
+ .text-hempblack {
+  color: #669364;
+}
+.text-inkforgood {
+  color: #00ADEF;
+}
+.text-mkiosk {
+  color: #005CB9;
+}
 
  
  .grid {

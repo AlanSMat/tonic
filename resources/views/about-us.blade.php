@@ -2,19 +2,19 @@
 
 @section('content')
     <div class="logo-icon-home"></div>
+	<button id="btn-click">
+		<img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
+	</button>
     <!-- Section 1 -->
     <div class="panel section section-about" data-color="teal">
-		<button id="btn-down-click">
-			<a class="scroll-arrow __white"></a>
-		</button>
-
+		
 		<div class="container-page">
-			<div class="text-left text-left-about-header">
+			<div class="text-left">
 				<h1 class="headline-header text-purple">A bit<br>about <span>us...</span></h1>
 				<p class="header-p section-p">We realised that the best way to help our clients succeed was to combine the power of brilliant creative, technological and strategic thinking.</p>
 			</div>
-
-			<div class="header-icon header-icon-about" id="icon-about1"></div>
+			
+			<div class="header-icon" id="icon-about1"></div>
 		</div>
 	</div>
 

@@ -2,9 +2,14 @@
 
 @section('content')
 <div class="logo-icon-home"></div>
+<!-- <div class="back-btn">
+    <div class="back-btn-link">
+        <a href="work.html">Back</a>
+    </div>
+</div> -->
 <button id="btn-click">
-	    <img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
-	</button>
+    <img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
+</button>
 <section id="sect-creative-1" class="panel section section-services" data-color="pink">
     
     <div class="container-page">

@@ -27,6 +27,9 @@ header {
     }
     .menu-inner {
         padding: 26vh 25.5vh;
+        @media (max-width: 800px) {padding: 22vh 18.5vh;}
+        @media (max-width: 680px) {padding: 22vh 18.5vh;}
+        @media (max-width: 480px) {padding: 18vh 10.5vh;}
         nav {
             ul {
                 list-style: none;
@@ -40,6 +43,9 @@ header {
                         text-transform: capitalize;
                         font-size: 95px;
                         line-height: 114px;
+                        @media (max-width: 800px) {}
+                        @media (max-width: 680px) {}
+                        @media (max-width: 480px) {font-size: 60px;}
                     }
                 }
             }

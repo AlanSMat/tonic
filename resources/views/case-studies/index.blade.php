@@ -4,8 +4,8 @@
     <div class="logo-icon-home"></div>
     <section class="panel section section-cs-header color-lg" data-color="lg">
 
-		<button id="btn-click">
-			<img class="scroll-arrow" src="img/common/arrow-down.svg" alt="">
+		<button id="btn-click-cs">
+			<img class="scroll-arrow" src="/img/common/arrow-down.svg" alt="">
 		</button>
 
 		<div class="container-page container-cs">
@@ -29,14 +29,13 @@
 						<p>Concept Development, Campaign Strategy, Creative Direction, Experiential, ATL, Digital, Social Media, Web design, OOH</p>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</section>
 	
 	<!-- Section 2 - Image -->
 	<section class="section section-cs-header-img" data-color="grey">
-		<img class="cs-header-image" src="img/work/lg/bringcinemahome/LG_BCH_1.jpg" alt="">
+		<img class="cs-header-image" src="/img/work/lg/bringcinemahome/LG_BCH_1.jpg" alt="">
 	</section>
 
 	<!-- Section 3 - Intro -->
@@ -65,9 +64,9 @@
 	</section>
 	<section class="panel section section-cs-intro color-grey" data-color="grey">
 		<div class="container-cs">
-			<div class="col-1-cs"><img class="cs-image cs-height-100" src="img/work/lg/bringcinemahome/LG_BCH_2.jpg" alt=""></div>
+			<div class="col-1-cs"><img class="cs-image cs-height-100" src="/img/work/lg/bringcinemahome/LG_BCH_2.jpg" alt=""></div>
 			<div class="col-2-cs">
-				<img class="cs-image" src="img/work/lg/bringcinemahome/LG_BCH_3.jpg" alt="">
+				<img class="cs-image" src="/img/work/lg/bringcinemahome/LG_BCH_3.jpg" alt="">
 			</div>
 			<div class="col-3-cs">
 				<div class="image-fw videoWrapper">
@@ -87,7 +86,7 @@
 				</div>
 			</div>
 			<div class="col-3-cs">
-				<img class="image-fw" src="img/work/lg/bringcinemahome/LG_BCH_4.jpg" alt="">
+				<img class="image-fw" src="/img/work/lg/bringcinemahome/LG_BCH_4.jpg" alt="">
 			</div>
 		</div>
 	</section>
@@ -95,7 +94,7 @@
 		<div class="container-cs">
 			<div class="col-1-cs"></div>
 			<div class="col-2-cs">
-				<img class="cs-image grid-start2" src="img/work/lg/bringcinemahome/LG_BCH_5.jpg" alt="">
+				<img class="cs-image grid-start2" src="/img/work/lg/bringcinemahome/LG_BCH_5.jpg" alt="">
 			</div>
 		</div>
 	</section>
@@ -115,23 +114,23 @@
 	<section class="panel section section-cs-intro color-grey" data-color="grey">
 		<div class="container-cs">
 			<div class="col-3-cs __display-flex">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/LG_BCH_6.jpg" alt="">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/LG_BCH_7.jpg" alt="">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/LG_BCH_8.jpg" alt="">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/LG_BCH_9.jpg" alt="">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/LG_BCH_10.jpg" alt="">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/LG_BCH_11.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/LG_BCH_6.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/LG_BCH_7.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/LG_BCH_8.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/LG_BCH_9.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/LG_BCH_10.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/LG_BCH_11.jpg" alt="">
 			</div>
 			<div class="col-3-cs">
-				<img class="image-fw" src="img/work/lg/bringcinemahome/LG_BCH_12.png" alt="">
+				<img class="image-fw" src="/img/work/lg/bringcinemahome/LG_BCH_12.png" alt="">
 			</div>
 		</div>
 	</section>
 	<section class="panel section section-cs-intro color-grey" data-color="grey">
 		<div class="container-cs">
-			<div class="col-1-cs"><img class="cs-image cs-height-100" src="img/work/lg/bringcinemahome/LG_BCH_13.jpg" alt=""></div>
+			<div class="col-1-cs"><img class="cs-image cs-height-100" src="/img/work/lg/bringcinemahome/LG_BCH_13.jpg" alt=""></div>
 			<div class="col-2-cs">
-				<img class="cs-image" src="img/work/lg/bringcinemahome/LG_BCH_14.jpg" alt="">
+				<img class="cs-image" src="/img/work/lg/bringcinemahome/LG_BCH_14.jpg" alt="">
 			</div>
 			<div class="col-3-cs">
 				<div class="image-fw videoWrapper">
@@ -144,12 +143,12 @@
 	<section class="panel section section-cs-intro color-grey" data-color="grey">
 		<div class="container-cs">
 			<div class="col-3-cs">
-				<img class="image-fw cs-image-padding" src="img/work/lg/bringcinemahome/Results_Social.svg" alt="">
-				<img class="image-fw" src="img/work/lg/bringcinemahome/LG_BCH_15.jpg" alt="">
+				<img class="image-fw cs-image-padding" src="/img/work/lg/bringcinemahome/Results_Social.svg" alt="">
+				<img class="image-fw" src="/img/work/lg/bringcinemahome/LG_BCH_15.jpg" alt="">
 			</div>
 			<div class="col-1-cs"></div>
 			<div class="col-2-cs">
-				<img class="cs-image grid-start2" src="img/work/lg/bringcinemahome/LG_BCH_16.jpg" alt="">
+				<img class="cs-image grid-start2" src="/img/work/lg/bringcinemahome/LG_BCH_16.jpg" alt="">
 			</div>
 		</div>
 	</section>
@@ -174,9 +173,9 @@
 	<section class="panel section section-cs-intro color-grey" data-color="grey">
 		<div class="container-cs">
 			<div class="col-3-cs __display-flex">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/OOH_1.jpg" alt="">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/OOH_2.jpg" alt="">
-				<img class="cs-image-grid" src="img/work/lg/bringcinemahome/OOH_3.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/OOH_1.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/OOH_2.jpg" alt="">
+				<img class="cs-image-grid" src="/img/work/lg/bringcinemahome/OOH_3.jpg" alt="">
 			</div>
 		</div>
 	</section>
@@ -185,8 +184,8 @@
 		<div class="container-grid container-grid-cs">
 
 			<div class="cs-grid-2-flex">
-				<img class="cs-image cs-image-padding" src="img/work/lg/bringcinemahome/Results_OLED-Sales.svg" style="width: 50%" alt="">
-				<img class="cs-image cs-image-padding" src="img/work/lg/bringcinemahome/Results_OLED-Sales.svg" style="width: 50%" alt="">
+				<img class="cs-image cs-image-padding" src="/img/work/lg/bringcinemahome/Results_OLED-Sales.svg" style="width: 50%" alt="">
+				<img class="cs-image cs-image-padding" src="/img/work/lg/bringcinemahome/Results_OLED-Sales.svg" style="width: 50%" alt="">
 			</div>
 
 		</div>
@@ -201,7 +200,7 @@
 				</div>
 
 					<a class="button button-pink" href="">View all
-						<img class="arrow" src="img/common/arrow-next.svg" alt="">
+						<img class="arrow" src="/img/common/arrow-next.svg" alt="">
 					</a>
 			</div>
 			<div class="section-scrolltrigger">
@@ -209,7 +208,7 @@
 
 					<div class="grid-card">
 						<div class="card">
-							<img src="img/work/thumbnails/thumbnail_zodiac.jpg" alt="">
+							<img src="/img/work/thumbnails/thumbnail_zodiac.jpg" alt="">
 							<h4 class="card-title">iQPump Launch Campaign</h4>
 							<h5 class="card-client">Zodiac</h5>
 							<div class="border"></div>
@@ -219,7 +218,7 @@
 					<div class="grid-card">
 						<div class="card">
 							<div>
-								<img src="img/work/thumbnails/thumbnail_hempblack.jpg" alt="">
+								<img src="/img/work/thumbnails/thumbnail_hempblack.jpg" alt="">
 							</div>
 							<h4 class="card-title">Feel. Look. Do. Better.</h4>
 							<h5 class="card-client">Hemp Black</h5>
@@ -229,7 +228,7 @@
 
 					<div class="grid-card grid-card-3">
 						<div class="card ">
-							<img src="img/work/thumbnails/thumbnail_chromebook.jpg" alt="">
+							<img src="/img/work/thumbnails/thumbnail_chromebook.jpg" alt="">
 							<h4 class="card-title">ChromeBook Launch Campaign</h4>
 							<h5 class="card-client">Lenovo</h5>
 							<div class="border"></div>
